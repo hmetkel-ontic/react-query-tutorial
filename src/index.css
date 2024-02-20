@@ -3,3 +3,12 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+button {
+  padding: 8px;
+  margin: 16px;
+}
+
+ol {
+  margin: 8px 12px;
+}

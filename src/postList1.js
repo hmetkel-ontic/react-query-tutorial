@@ -5,6 +5,12 @@ export default function PostList1() {
   const postQuery = useQuery({
     queryKey: ['posts'],
     queryFn: getPosts,
+    placeholderData: [
+      {
+        id: 1,
+        title: 'Placeholder data',
+      },
+    ],
   });
 
   if (postQuery.status === 'error') {
